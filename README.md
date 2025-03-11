@@ -1,8 +1,10 @@
 # mnist-math-classifier
 
-## ML algorithm used:
-### 1. Support Vector Machine (SVM)
-### 2. K-Nearest Neighbor (KNN)
-### 3. Random Forest (RF)
+This project implements and compares three machine learning classifiers—Support Vector Machine (SVM), Random Forest, and K-Nearest Neighbors (KNN)—for recognizing handwritten digits from the MNIST dataset. The dataset is preprocessed using image normalization and StandardScaler, and models are evaluated based on accuracy, precision, recall, and F1-score.
 
-**After the implementation, each algorithm's accuracy, precision, recall, and F1-score were demonstrated in the form of a data frame.**
+Key features:
+ -Data preprocessing with normalization and scaling
+ -Training and evaluation of multiple classifiers
+ -Model performance comparison using classification reports
+ 
+ Results: The models achieve validation accuracies of ~93-94%, with Random Forest and KNN performing slightly better than SVM.
